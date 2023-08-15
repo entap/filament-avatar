@@ -1,0 +1,27 @@
+{
+  "name": "entap/filament-avatar",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Entap\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Toshimasa Matsuoka",
+      "email": "matsuoka@entap.co.jp"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "filament/filament": "^3.0-stable"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Entap\\FilamentAvatarServiceProvider"
+      ]
+    }
+  }
+}
